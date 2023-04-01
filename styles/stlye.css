@@ -4,11 +4,10 @@
     box-sizing: border-box;
     list-style-type: none;
     color: black;
+    text-decoration: none;
 }
-
-
 .firstSection {
-    height: 90vh; max-width: 1050px;
+    height: 88.9vh; max-width: 1150px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -24,12 +23,50 @@
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
+    font-size: 80px;
 }
 span {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+input {
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-top: 50px;
+}
+input::placeholder {
+    font-size: 18px;
+}
+
+body {
+    background: gray;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+}
+header{
+    background: white;
+    max-width: 1150px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    margin: 0 48px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: arial;
+} 
+header a:hover {
+    text-decoration: underline;
 }
