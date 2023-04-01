@@ -5,3 +5,22 @@
     list-style-type: none;
     color: black;
 }
+section{
+    max-width: 1050px;
+    margin: auto;
+}
+.block1{
+    width: 464px;
+    height: 586px;
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.block1 img{
+    width: 330px;
+    height: 528px;
+}
+.texts{
+    width: 406px;
+}
