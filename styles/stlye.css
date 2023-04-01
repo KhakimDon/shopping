@@ -11,6 +11,9 @@
   height: 586px;
   margin: auto;
   background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .block1 {
@@ -38,26 +41,6 @@ main {
   margin: auto;
   background: white;
 }
-header {
-  background: white;
-  max-width: 1150px;
-  padding-top: 42px;
-  padding-bottom: 42px;
-  margin: auto;
-  display: flex;
-  justify-content: flex-end;
-}
-
-header a {
-  margin: 0 48px;
-  font-weight: 400;
-  font-size: 20px;
-  font-family: arial;
-}
-header a:hover {
-  text-decoration: underline;
-}
-
 .curated_shopping_left {
   display: flex;
   align-items: flex-end;
@@ -67,4 +50,18 @@ header a:hover {
   border-radius: 8px;
   width: 464px;
   height: 586px;
+}
+.curated_shopping_right{
+    background-color: blue;
+
+    width: 406px;
+}
+.curated_shopping_right h2{
+    color: #9C0E43;
+}
+.curated_shopping_right h3{
+    color: black;
+}
+.curated_shopping_right h4{
+    color: black;
 }
