@@ -1,26 +1,70 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style-type: none;
-    color: black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  color: black;
+  text-decoration: none;
 }
-section{
-    max-width: 1050px;
-    margin: auto;
+.curated_shopping {
+  width: 1150px;
+  height: 586px;
+  margin: auto;
+  background: black;
 }
-.block1{
-    width: 464px;
-    height: 586px;
-    background-color: #E5E5E5;
-    display: flex;
-    align-items: end;
-    justify-content: center;
+
+.block1 {
+  width: 464px;
+  height: 586px;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: end;
+  justify-content: center;
 }
-.block1 img{
-    width: 330px;
-    height: 528px;
+.block1 img {
+  width: 330px;
+  height: 528px;
 }
-.texts{
-    width: 406px;
+.texts {
+  width: 406px;
+}
+
+body {
+  background: #333;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  background: white;
+}
+header {
+  background: white;
+  max-width: 1150px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header a {
+  margin: 0 48px;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: arial;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+.curated_shopping_left {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: #e5e5e5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 464px;
+  height: 586px;
 }
