@@ -41,32 +41,3 @@ input {
 input::placeholder {
     font-size: 18px;
 }
-
-body {
-    background: gray;
-}
-
-main{
-    max-width: 1150px;
-    margin: auto;
-    background: white;
-}
-header{
-    background: white;
-    max-width: 1150px;
-    padding-top: 42px;
-    padding-bottom: 42px;
-    margin: auto;
-    display: flex;
-    justify-content: flex-end;
-}
-
-header a {
-    margin: 0 48px;
-    font-weight: 400;
-    font-size: 20px;
-    font-family: arial;
-} 
-header a:hover {
-    text-decoration: underline;
-}
