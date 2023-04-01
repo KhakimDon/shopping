@@ -5,3 +5,19 @@
     list-style-type: none;
     color: black;
 }
+.first_section_block{
+    max-width: 1050px;
+    margin: auto;
+    border: 1px solid black;
+}
+p,h2,h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first_section_block_image{
+    width: 464px;
+    height: 586px;
+    background-image: url('../assets/IMAGE\ \(1\).png');
+}
+.first_p{
+    color: #9C0E43;
+}
